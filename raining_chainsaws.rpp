@@ -1,11 +1,12 @@
-<REAPER_PROJECT 0.1 "7.28/win64" 1760679715
+<REAPER_PROJECT 0.1 "7.48/OSX64-clang" 1760829115
   <NOTES 0 2
   >
-  RIPPLE 0
-  GROUPOVERRIDE 0 0 0
+  RIPPLE 0 0
+  GROUPOVERRIDE 0 0 0 0
   AUTOXFADE 129
   ENVATTACH 3
   POOLEDENVATTACH 0
+  TCPUIFLAGS 0
   MIXERUIFLAGS 11 48
   ENVFADESZ10 40
   PEAKGAIN 1
@@ -18,8 +19,8 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 322.81449497942077
-  ZOOM 35.85960413809164 11180 0
+  CURSOR 40.73050343747211
+  ZOOM 172.10688325425392 9612 0
   VZOOMEX 11.24622536 0
   USE_REC_CFG 0
   RECMODE 1
@@ -41,6 +42,7 @@
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 0
   RENDER_DITHER 0
+  RENDER_TRIM 0.000001 0.000001 0 0
   TIMELOCKMODE 1
   TEMPOENVLOCKMODE 1
   ITEMMIX 1
@@ -64,15 +66,15 @@
     MULT 1
   >
   GLOBAL_AUTO -1
-  TEMPO 120 4 4
+  TEMPO 120 4 4 0
   PLAYRATE 1 0 0.25 4
-  SELECTION 320.20999999999145 319.04999999999148
-  SELECTION2 320.20999999999145 319.04999999999148
+  SELECTION 224.27202425032513 459.66568439300499
+  SELECTION2 224.27202425032513 459.66568439300499
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
   MASTERMUTESOLO 0
-  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
   MASTER_VOLUME 1 0 -1 -1 1
@@ -96,7 +98,11 @@
     ARM 0
     DEFSHAPE 1 -1 -1
   >
-  MARKER 1 351.01304506316325 radio 0 0 1 R {DACB5973-5294-4A91-A9A2-4CB65768DC62} 0
+  MARKER 3 39.26689822654672 whooo 0 0 1 B {4D114B48-A07D-154B-9946-A4051A448ADA} 0
+  MARKER 2 55.13783967002902 "no no no" 0 0 1 B {32F686D8-1385-0F47-AF48-55488163CC77} 0
+  MARKER 4 166.15544205294418 "leave store" 0 0 1 B {3F108B95-61AB-9E42-A09E-D93D22E88BEA} 0
+  MARKER 5 216.34729795331768 radio 8 0 1 B {CDAF7930-B573-7046-BFD5-6DCCC6F1971B} 0
+  MARKER 1 351.01304506316325 radio 0 0 1 B {DACB5973-5294-4A91-A9A2-4CB65768DC62} 0
   <PROJBAY
   >
   <TRACK {AB0476C4-B204-4D5A-9FCB-60EAA58CC49A}
@@ -106,12 +112,12 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 0.77019387072009 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
@@ -144,7 +150,7 @@
       GUID {C5643131-7DDB-46EA-9A2D-0A3A0D8501C8}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -167,7 +173,7 @@
       GUID {2B7D19BF-E4DE-494A-B8BD-51E721176015}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -190,7 +196,7 @@
       GUID {F7D2D9A3-3FE9-43D0-B1A4-389ABB7B750B}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -213,7 +219,7 @@
       GUID {92FFE6C4-65B5-43BA-B88A-FA7096E53604}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -236,7 +242,7 @@
       GUID {5C95111B-D6F3-47B4-8C21-B3E9A70F041D}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -259,7 +265,7 @@
       GUID {159373F8-D82D-4025-B3C7-829BF0E04F8D}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -282,7 +288,7 @@
       GUID {599DDF74-1F6E-4557-9FF4-BBF09325047B}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -305,7 +311,7 @@
       GUID {6EB53FDD-F7F9-4C00-AA34-4EB8F7FE755E}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -328,7 +334,7 @@
       GUID {B06F65F3-5097-4FA4-8B0D-0BAE1D9B6BC3}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -351,7 +357,7 @@
       GUID {D8FDA78D-17CA-4102-A3CA-774A50DB5F82}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -374,7 +380,7 @@
       GUID {2F93396F-0AFF-45EA-A12A-45E9513F2447}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -397,7 +403,7 @@
       GUID {86F22390-0C43-4F9E-8F98-A0359A26A2D0}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -420,7 +426,7 @@
       GUID {B12BDE45-9A49-4882-839E-3847D0BA167D}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -443,7 +449,7 @@
       GUID {1125663E-5CA2-4522-B29B-5ED1559D2564}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -466,7 +472,7 @@
       GUID {0E13ACDC-9A11-4108-B7AC-F39C61AB02EA}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -489,7 +495,7 @@
       GUID {9AFA3768-B747-47B4-B2F7-9FF5AFA6BBFD}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -512,7 +518,7 @@
       GUID {F12AE8F5-D55D-4135-9257-D512B0FBFAD8}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -535,7 +541,7 @@
       GUID {E77908E4-DA26-4241-ACEE-A13DB30F11F2}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -558,7 +564,7 @@
       GUID {A059ED12-00B9-433A-92D5-2862BF596BE2}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -581,7 +587,7 @@
       GUID {CCA0D691-DF78-4449-BA5F-F6A63578B374}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -604,7 +610,7 @@
       GUID {E2A3CD88-835B-4B76-B927-B882E4510079}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -627,7 +633,7 @@
       GUID {BAE4CA72-5BA5-4E7F-BB02-9ACB8284FC9B}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -650,7 +656,7 @@
       GUID {79DD0FDB-47D1-427B-9AFD-3AB23DC97B90}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -673,7 +679,7 @@
       GUID {6192C9EF-1BF3-4672-97D4-A51DF00984BB}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
   >
@@ -684,14 +690,14 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 96 0 0 0 0 0 0
@@ -722,7 +728,7 @@
       GUID {7F4C48CF-768A-4F61-B0C9-2D8827C9D8A4}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -745,7 +751,7 @@
       GUID {68F40ACB-3646-4CDF-8466-7627097C5726}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -768,7 +774,7 @@
       GUID {EF1084F8-97C4-4A16-91BE-1E814563E80F}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -791,7 +797,7 @@
       GUID {E79599AB-9C81-4490-9871-5B3440D31980}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -814,7 +820,7 @@
       GUID {15BBB6CF-951D-4A87-B6CE-FA12F00442C7}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -837,7 +843,7 @@
       GUID {7CDAA315-BD79-4A6C-A60B-E86A918FD152}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -860,7 +866,7 @@
       GUID {0E7A3559-845A-4FE0-88CA-15B7E022DEAC}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -883,7 +889,7 @@
       GUID {B627E382-FC2C-47CF-8EAD-E2889E94BED7}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -906,7 +912,7 @@
       GUID {CA611328-55BB-453F-AF2B-1C03F736649E}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -929,7 +935,7 @@
       GUID {05CFC991-DAAF-466C-A920-078B344CEDDF}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -952,7 +958,7 @@
       GUID {74AF2ECD-7D0A-4D47-AB7E-215AD2991593}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -975,7 +981,7 @@
       GUID {755F8169-C439-4879-A0E5-B481835907D1}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -998,7 +1004,7 @@
       GUID {71B28BD2-1EC4-438A-8754-2AF74BB29909}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -1021,7 +1027,7 @@
       GUID {40C0816A-23F4-462A-8466-0C034ED8BB04}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -1044,7 +1050,7 @@
       GUID {8E9A8CC7-3D2F-474D-AE46-37281F629422}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -1067,7 +1073,7 @@
       GUID {FD480813-AC5C-4241-93A7-D79AE6E09225}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -1090,7 +1096,7 @@
       GUID {8DC59346-B4EE-47F1-9F38-F5EF09031AC3}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -1113,13 +1119,13 @@
       GUID {221BD7A9-2517-4446-A64D-27546B00A3B7}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
-      POSITION 401.1803432212933
+      POSITION 416.8682707212933
       SNAPOFFS 0
-      LENGTH 15.6879375
+      LENGTH 0.00001
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -1130,13 +1136,13 @@
       IID 1
       NAME "raining_chainsaws _reading.m4a"
       VOLPAN 1 0 1 -1
-      SOFFS 357.01492342849787
+      SOFFS 372.70285092849787
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {44BB8086-09DB-46C6-8AB3-E004FA358129}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -1159,7 +1165,7 @@
       GUID {DB48D422-1B9F-44EB-8182-BFDE9AC0363C}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -1182,7 +1188,7 @@
       GUID {1ECC65BF-6212-4D22-92BB-DE20E234C79D}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -1205,7 +1211,7 @@
       GUID {AB730485-F385-4736-B943-93FEFA569B8B}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
     <ITEM
@@ -1228,7 +1234,7 @@
       GUID {3C5184A8-965E-4EC9-9342-264CE70D7E95}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\raining_chainsaws _reading.m4a"
+        FILE "Media/raining_chainsaws _reading.m4a"
       >
     >
   >
@@ -1244,7 +1250,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
@@ -1267,28 +1273,28 @@
       VOLTYPE 1
       PT 0 0.47863009 0
       PT 41.90251058 0.33113112 0
-      PT 44.51770273 0.04677351 0
-      PT 104.39374303 0.04733369 0
-      PT 105.40016845 0.05893786 0 0 1
+      PT 44.51770273 0.05128613 0
+      PT 104.39374303 0.05190036 0
+      PT 105.40016845 0.05893786 0
       PT 118.8960237 0.0439827 0
-      PT 120.3852063 0.08827302 0
-      PT 140.25757028 0.07585776 0
-      PT 140.56303614 1.29965646 0
-      PT 140.56353614 1.26671441 0
-      PT 320.94735547 0.23374567 0
-      PT 350.74289208 0.23374567 0
-      PT 368.54397247 0.19098161 0
-      PT 368.54397247 0.18030035 0
-      PT 385.69289389 0.14649243 0
-      PT 385.887562 0.54603354 0
-      PT 537.16561265 0.42615307 0
-      PT 540.40108719 0.03630781 0
+      PT 120.3852063 0.03514212 0
+      PT 167.89117371 0.03801894 0
+      PT 168.70844646 1.36090738 0
+      PT 169.72030796 1.20511917 0
+      PT 288.50666698 0.34747629 0
+      PT 288.50716698 0.54429351 0
+      PT 437.79403914 0.42615307 0
+      PT 441.02951368 0.03630781 0
+      PT 443.91123455 0.09496839 0
+      PT 443.91173455 0.21581191 0
+      PT 480.19655301 0.21056405 0
+      PT 543.28330806 0.0949822 0
       PT 549.79937035 0.44668359 0
     >
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 103.2270445497283
+      LENGTH 59.48065036780751
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -1304,13 +1310,13 @@
       CHANMODE 0
       GUID {4946261F-15CD-4A3E-B5EB-FF5955145A14}
       <SOURCE MP3
-        FILE "Media\ytmp3free.cc_the-knack-my-sharona-youtubemp3free.org.mp3" 1
+        FILE "Media/ytmp3free.cc_the-knack-my-sharona-youtubemp3free.org.mp3" 1
       >
     >
     <ITEM
       POSITION 118.81513514072353
       SNAPOFFS 0
-      LENGTH 19.29399052756179
+      LENGTH 49.38738056472098
       LOOP 1
       ALLTAKES 0
       FADEIN 1 5.14198305366195 0 1 0 0 0
@@ -1326,17 +1332,17 @@
       CHANMODE 0
       GUID {031EBBFD-11BD-4619-A3B3-2BEBCEB89819}
       <SOURCE MP3
-        FILE "Media\organ-music-for-rcia-241670.mp3" 1
+        FILE "Media/organ-music-for-rcia-241670.mp3" 1
       >
     >
     <ITEM
-      POSITION 387.87874048932184
+      POSITION 288.50716697863896
       SNAPOFFS 0
-      LENGTH 155.4040675685219
+      LENGTH 155.40406756852218
       LOOP 1
       ALLTAKES 0
       FADEIN 1 1.48590463043621 0 1 0 0 0
-      FADEOUT 1.1 0 3.6818784834195 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
       IGUID {15091771-C0FF-44D9-A08C-3C709A086921}
@@ -1348,7 +1354,7 @@
       CHANMODE 0
       GUID {B0D25E99-0E6D-438F-82B6-D25BBCDCC393}
       <SOURCE MP3
-        FILE "Media\bayou-river-night-sounds-frogs-and-crickets-149191.mp3" 1
+        FILE "Media/bayou-river-night-sounds-frogs-and-crickets-149191.mp3" 1
       >
     >
     <ITEM
@@ -1357,7 +1363,7 @@
       LENGTH 31.66447190974532
       LOOP 1
       ALLTAKES 0
-      FADEIN 1.1 0 3.6818784834195 1 1 0 0
+      FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
@@ -1370,7 +1376,7 @@
       CHANMODE 0
       GUID {1A1CED0C-135D-430E-B74A-DFC3FDAD4751}
       <SOURCE MP3
-        FILE "Media\ytmp3free.cc_the-knack-my-sharona-youtubemp3free.org.mp3" 1
+        FILE "Media/ytmp3free.cc_the-knack-my-sharona-youtubemp3free.org.mp3" 1
       >
     >
   >
@@ -1386,9 +1392,9 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 69 0 0 0 0 0 0
@@ -1408,32 +1414,58 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0 1 0
+      PT 95.7724225 1 0
+      PT 95.77292251 2 0
+      PT 105.09301837 0.63291619 0
+      PT 105.71518432 0.56288653 0
+      PT 105.71618432 0.48676266 0
+      PT 106.78777049 0.4842365 0
+      PT 106.78827049 0.50465553 0
+      PT 106.81423414 0.50459235 0
+      PT 106.81473414 0.47181152 0
+      PT 107.25988153 0.47078725 0
+      PT 107.26038153 0.50350781 0
+      PT 107.42847193 0.15197033 0
+      PT 114.19847193 0.19417935 0
+      PT 114.31132393 0.48661963 0
+      PT 114.31182393 0.46908258 0
+      PT 117.80820401 0.46112397 0
+      PT 123.26986161 1 0
       PT 126.37087314 1 0
-      PT 126.37137314 2 0
-      PT 135.691469 0.63291619 0
-      PT 137.06721239 0.48676384 0
-      PT 138.13929856 0.4842365 0
-      PT 138.13979856 0.50465553 0
-      PT 138.16576221 0.50459235 0
-      PT 138.16626221 0.47181152 0
-      PT 138.6114096 0.47078725 0
-      PT 138.6119096 0.50350781 0
-      PT 138.78 0.15197033 0
-      PT 145.55 0.19417935 0
-      PT 145.662852 0.48661963 0
-      PT 145.663352 0.46908258 0
-      PT 151.1240096 0.45670126 0
+      PT 137.06671239 0.48679748 0
       PT 151.1245096 1 0
-      PT 320.94735547 1 0
-      PT 350.74289208 1 0
-      PT 426.48941549 1 0
-      PT 428.02184989 0.33113112 0
-      PT 509.40610572 0.33113112 0
-      PT 510.1911413 0.83176377 0
-      PT 512.47656328 0.83176377 0
-      PT 512.47706328 0.33113112 0
-      PT 514.9075168 0.33113112 0
+      PT 164.84693115 1 0
+      PT 164.84743115 0.46908258 0
+      PT 170.04291099 0.4572963 0
+      PT 170.60657481 0.61918178 0
+      PT 170.60707481 1 0
+      PT 257.86060043 1 0
+      PT 333.43480821 1 0
+      PT 333.43530821 0.33113112 0
+      PT 344.34006419 0.33113112 0
+      PT 344.34056419 1 0
+      PT 363.40266045 1 0
+      PT 364.93509485 0.33113112 0
+      PT 446.31935068 0.33113112 0
+      PT 447.10438626 0.83176377 0
+      PT 449.38980824 0.83176377 0
+      PT 449.39030824 0.33113112 0
+      PT 451.82076175 0.33113112 0
+      PT 451.82126175 0.86724606 0
       PT 514.9080168 0.83176377 0
+    >
+    <FXCHAIN
+      WNDRECT 244 377 793 296
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS loser/3BandEQ ""
+        -8 2248 0 2005 4 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      >
+      FLOATPOS 0 0 0 0
+      FXID {73082A08-CF60-1341-9278-F5C81EDA6F90}
+      WAK 0 0
     >
     <ITEM
       POSITION 39.88975595096388
@@ -1454,17 +1486,17 @@
       CHANMODE 0
       GUID {9F942324-3410-46AF-9CB4-6EF75DF9D38E}
       <SOURCE MP3
-        FILE "Media\car-acceleration-inside-66557.mp3" 1
+        FILE "Media/car-acceleration-inside-66557.mp3" 1
       >
     >
     <ITEM
       POSITION 63.17099021598787
       SNAPOFFS 0
-      LENGTH 67.41967863541328
+      LENGTH 35.40671073253796
       LOOP 1
       ALLTAKES 0
       FADEIN 1.1 0 0.9607240683093 1 1 0 0
-      FADEOUT 1.1 2.90463164863351 4.21929571347633 1 1 0 0
+      FADEOUT 1.1 2.90463164863351 2.80477844475334 1 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {01FA7974-DA6F-44A6-917B-2FAC2BD7C4D8}
@@ -1476,17 +1508,17 @@
       CHANMODE 0
       GUID {F477C922-F431-47AD-9463-B426F20B9E31}
       <SOURCE WAVE
-        FILE "Media\car-sound-loop.wav"
+        FILE "Media/car-sound-loop.wav"
       >
     >
     <ITEM
-      POSITION 126.37137313792482
+      POSITION 95.77292250377249
       SNAPOFFS 0
-      LENGTH 10.69583925434711
+      LENGTH 10.69583925434715
       LOOP 1
       ALLTAKES 0
-      FADEIN 1.1 0 4.21929571347633 1 1 0 0
-      FADEOUT 1 1.5308193823879 0 1 0 0 0
+      FADEIN 1.1 0 2.80477844475334 1 1 0 0
+      FADEOUT 1.1 1.53081938238795 0.75307743562489 1 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {D5CC1BF9-2AAE-4AD2-9E7E-0AE5A74B20AE}
@@ -1498,16 +1530,16 @@
       CHANMODE 0
       GUID {A7FCE074-2CE0-42E5-9E27-AEFFD7176DB1}
       <SOURCE MP3
-        FILE "Media\diesel-car-approaching-and-stopping-briefly-before-continuing-32037.mp3" 1
+        FILE "Media/diesel-car-approaching-and-stopping-briefly-before-continuing-32037.mp3" 1
       >
     >
     <ITEM
-      POSITION 137.06721239227193
+      POSITION 105.71568432249475
       SNAPOFFS 0
-      LENGTH 1.07208616780034
+      LENGTH 1.07208616780031
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
+      FADEIN 1.1 0 0.75307743562489 1 1 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
@@ -1520,13 +1552,13 @@
       CHANMODE 0
       GUID {B0481CD4-7C8F-4D70-9BCB-6940B1A65FE9}
       <SOURCE MP3
-        FILE "Media\open-car-door-372469.mp3" 1
+        FILE "Media/open-car-door-372469.mp3" 1
       >
     >
     <ITEM
-      POSITION 138.1662622052684
+      POSITION 106.81473413549119
       SNAPOFFS 0
-      LENGTH 0.44514739229035
+      LENGTH 0.44514739229032
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -1542,17 +1574,17 @@
       CHANMODE 0
       GUID {04CFB524-2FB6-435F-9114-02D220F799FE}
       <SOURCE MP3
-        FILE "Media\car-door-shut-297266.mp3" 1
+        FILE "Media/car-door-shut-297266.mp3" 1
       >
     >
     <ITEM
-      POSITION 138.68443217404641
+      POSITION 107.33290410426925
       SNAPOFFS 0
       LENGTH 7.25368228026832
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0.91135484000085 0 1 0 0 0
-      FADEOUT 1.1 1.2168051501032 0.27476245324911 1 1 0 0
+      FADEIN 1 0.91135484000078 0 1 0 0 0
+      FADEOUT 1.1 1.21680515010321 0.27476245324911 1 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {6DB24148-4B29-4FBE-A085-30F55D3196A8}
@@ -1564,11 +1596,11 @@
       CHANMODE 0
       GUID {A69894A7-DE9D-4548-A9F5-75B1705583AF}
       <SOURCE MP3
-        FILE "Media\gravel-road-footsteps-336379.mp3" 1
+        FILE "Media/gravel-road-footsteps-336379.mp3" 1
       >
     >
     <ITEM
-      POSITION 145.66335200106562
+      POSITION 114.31182393128844
       SNAPOFFS 0
       LENGTH 5.46065759637202
       LOOP 1
@@ -1586,13 +1618,35 @@
       CHANMODE 0
       GUID {918FF8CF-77D1-427B-94ED-65A693846A88}
       <SOURCE MP3
-        FILE "Media\door-open-close-with-bell-96884.mp3" 1
+        FILE "Media/door-open-close-with-bell-96884.mp3" 1
       >
     >
     <ITEM
-      POSITION 233.83129423007324
+      POSITION 164.847431148992
       SNAPOFFS 0
-      LENGTH 1.51326423209684
+      LENGTH 5.46065759637199
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DEF7DAE8-E8D8-7943-9B6A-14798F2C6598}
+      IID 62
+      NAME door-open-close-with-bell-96884.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {99320EFA-4340-5045-BBB7-85BA430C2A24}
+      <SOURCE MP3
+        FILE "Media/door-open-close-with-bell-96884.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 170.37115813704776
+      SNAPOFFS 0
+      LENGTH 2.31984729519635
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.52573499143273 0 1 0 0 0
@@ -1603,18 +1657,18 @@
       IID 68
       NAME gravel-road-footsteps-336379.mp3
       VOLPAN 1 0 1 -1
-      SOFFS 0
+      SOFFS 10.55372051412084
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {4C73A83F-763A-4BF7-835C-C8F3CD32AD83}
       <SOURCE MP3
-        FILE "Media\gravel-road-footsteps-336379.mp3" 1
+        FILE "Media/gravel-road-footsteps-336379.mp3" 1
       >
     >
     <ITEM
-      POSITION 235.85785062972622
+      POSITION 172.7710955864294
       SNAPOFFS 0
-      LENGTH 2.06519879571925
+      LENGTH 2.06519879571923
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.65854241223963 0 1 0 0 0
@@ -1630,17 +1684,17 @@
       CHANMODE 0
       GUID {76DD766B-AACB-4E5F-92C9-C22E4631BE38}
       <SOURCE MP3
-        FILE "Media\car-start-drive-away-74988.mp3" 1
+        FILE "Media/car-start-drive-away-74988.mp3" 1
       >
     >
     <ITEM
-      POSITION 237.25717715701327
+      POSITION 174.17042211371648
       SNAPOFFS 0
-      LENGTH 145.92282284297684
+      LENGTH 111.91908704107914
       LOOP 1
       ALLTAKES 0
       FADEIN 1.1 0 0.66587226843219 1 1 0 0
-      FADEOUT 1.1 0.01 1.14 1 1 0 0
+      FADEOUT 1.1 0.01 1.10809316926151 1 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {4A676DFD-5851-4BB5-85FB-997CC5AF87F1}
@@ -1652,16 +1706,16 @@
       CHANMODE 0
       GUID {CDBA886E-0C53-4575-A6FD-B3449F8A1F0D}
       <SOURCE MP3
-        FILE "Media\car-acceleration-inside-66557.mp3" 1
+        FILE "Media/car-acceleration-inside-66557.mp3" 1
       >
     >
     <ITEM
-      POSITION 382.03999999999019
+      POSITION 284.98141598553411
       SNAPOFFS 0
-      LENGTH 4.26737190095878
+      LENGTH 4.26737190095872
       LOOP 1
       ALLTAKES 0
-      FADEIN 1.1 0 1.14 1 1 0 0
+      FADEIN 1.1 0 1.10809316926151 1 1 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
@@ -1675,11 +1729,11 @@
       GUID {50AC53F3-DB67-4167-995F-E7F288322C1C}
       <SOURCE VIDEO
         FLIP 0 1
-        FILE "Media\car-austin-healey-sprite-out-sound-effect-001081798_nw_prev.m4a"
+        FILE "Media/car-austin-healey-sprite-out-sound-effect-001081798_nw_prev.m4a"
       >
     >
     <ITEM
-      POSITION 428.45968828839187
+      POSITION 333.43530820506112
       SNAPOFFS 0
       LENGTH 10.9047559898363
       LOOP 1
@@ -1697,11 +1751,11 @@
       CHANMODE 0
       GUID {29E35219-FE09-4EA7-8F30-56EC96F12B6E}
       <SOURCE MP3
-        FILE "Media\car-reverse-stop-handbrake-vw-scirocco-engine-continues-27879.mp3" 1
+        FILE "Media/car-reverse-stop-handbrake-vw-scirocco-engine-continues-27879.mp3" 1
       >
     >
     <ITEM
-      POSITION 481.85440520684932
+      POSITION 418.76765016355273
       SNAPOFFS 0
       LENGTH 5.85697916666675
       LOOP 1
@@ -1719,13 +1773,13 @@
       CHANMODE 0
       GUID {FFAB84E8-6AC0-4CB5-82D2-8A8BDEE1DB3C}
       <SOURCE MP3
-        FILE "Media\magic-03-278824.mp3" 1
+        FILE "Media/magic-03-278824.mp3" 1
       >
     >
     <ITEM
-      POSITION 512.47706328255606
+      POSITION 449.39030823925953
       SNAPOFFS 0
-      LENGTH 2.43045351473825
+      LENGTH 2.43045351473819
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -1741,7 +1795,7 @@
       CHANMODE 0
       GUID {D2FDA970-5E93-47FA-9AAE-4AB5E5726FAE}
       <SOURCE MP3
-        FILE "Media\magical-spell-cast-190272.mp3" 1
+        FILE "Media/magical-spell-cast-190272.mp3" 1
       >
     >
   >
@@ -1757,7 +1811,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
@@ -1779,89 +1833,70 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0 0.14712331 0
-      PT 99.22121894 0.14712331 0
-      PT 102.30262326 0.73736325 0
+      PT 55.55278048 0.14712331 0
+      PT 55.55328048 0.90715498 0
+      PT 62.41923882 0.90715498 0
+      PT 62.41973882 0.14712331 0
+      PT 96.2411671 0.14712331 0
+      PT 103.10812543 0.73736325 0
       PT 110.31427447 0.73736325 0
-      PT 115.86080224 0.15764547 0
-      PT 185.97442907 1.41253754 0
-      PT 185.97492907 1.99766112 0
-      PT 185.97856983 2 0
-      PT 187.74289609 2 0
-      PT 187.74339609 1.41253754 0
-      PT 228.95122945 2 0
-      PT 228.95172945 0.31405031 0
-      PT 234.41238704 0.30507837 0
-      PT 234.41288704 2 0
-      PT 237.18629949 2 0
-      PT 237.18679949 0.30390219 0
-      PT 239.84875479 0.29961531 0
-      PT 239.84925479 2 0
-      PT 288.23337368 1.81435571 0
-      PT 299.66706963 1.68558946 0
-      PT 304.3895 1.6693945 0
-      PT 304.39 1.77952285 0
-      PT 304.98632311 0.64565423 0
-      PT 309.37372888 0.41686938 0
-      PT 309.83552313 1.6080993 0
-      PT 315.07319595 1.64311606 0
-      PT 318.29637679 1.63106592 0
-      PT 318.29687679 1.77806379 0
-      PT 318.45480051 0.54954087 0
-      PT 324.41 0.46773514 0
-      PT 324.63 1.14815362 0
-      PT 334.05372831 0.36280581 0 0 1
-      PT 334.14696328 0.34636185 0
-      PT 337.95166728 0.47863009 0
-      PT 338.11474451 1.73910487 0
-      PT 349.44923184 1.73910487 0
-      PT 349.44973185 0.57543994 0
-      PT 349.93428515 0.55507666 0
-      PT 349.93478515 1.73910487 0
-      PT 350.74239208 1.73910487 0
-      PT 351.47427367 1.70965178 0
-      PT 351.47477367 1.73910487 0
-      PT 352.90515501 1.68193218 0
-      PT 352.90565501 1.65330314 0
-      PT 354.06261076 1.6089487 0
-      PT 368.54397247 1.55639462 0
-      PT 368.54397247 1.26138242 0
-      PT 369.02653552 1.27944129 0
-      PT 369.38246137 1.24589067 0
-      PT 369.38296137 1.18410766 0
-      PT 385.65912555 0.30378881 0
-      PT 385.65962555 0.57158256 0
-      PT 410.41670323 0.30377438 0
-      PT 416.31861689 0.16678473 0
-      PT 422.690064 0.1 0
-      PT 492.56709251 0.1 0
-      PT 495.11845815 1.54881662 0
+      PT 115.86080224 0.12237184 0
+      PT 164.5437472 0.61439324 0
+      PT 164.5442472 0.31405031 0
+      PT 170.00490479 0.30507837 0
+      PT 170.0054048 0.71565956 0
+      PT 174.09954445 0.80046485 0
+      PT 174.10004445 0.30390219 0
+      PT 176.76199975 0.29961531 0
+      PT 176.76249975 2 0
+      PT 211.84847374 1.86379997 0
+      PT 216.32026154 1.64031393 0
+      PT 216.32076154 1.08764783 0
+      PT 216.61708465 0.64565423 0
+      PT 221.00449042 0.41686938 0
+      PT 221.46628467 1.6080993 0
+      PT 221.47801912 1.60817701 0
+      PT 221.47851912 1.63803663 0
+      PT 222.23216969 1.64311606 0
+      PT 229.92713833 1.64596765 0
+      PT 229.92763833 1.77806379 0
+      PT 230.08556205 0.54954087 0
+      PT 236.04076154 0.46773514 0
+      PT 236.26076154 1.14815362 0
+      PT 245.68448985 0.36280581 0
+      PT 245.77772482 0.34636185 0
+      PT 249.58242882 0.47863009 0
+      PT 249.74550605 1.73910487 0
+      PT 261.07999338 1.73910487 0
+      PT 261.08049339 0.57543994 0
+      PT 261.56504669 0.55507666 0
+      PT 261.56554669 1.60768262 0
+      PT 275.70294621 1.55639462 0
+      PT 275.70294621 1.26138242 0
+      PT 276.18550926 1.27944129 0
+      PT 276.54143511 1.24589067 0
+      PT 276.54193511 1.18410766 0
+      PT 292.81809929 0.30378881 0
+      PT 292.81859929 0.57158256 0
+      PT 303.11334966 0.44353403 0
+      PT 303.11384966 0.15331924 0
+      PT 308.37687499 0.1 0
+      PT 313.90348685 0.1 0
+      PT 313.90398685 0.33534929 0
+      PT 317.57567697 0.30377438 0
+      PT 323.47759063 0.16678473 0
+      PT 324.58551241 0.15332513 0
+      PT 335.3761496 0.1 0
+      PT 399.72606625 0.1 0
+      PT 402.27743189 1.54881662 0
+      PT 453.56929934 1.55503905 0
+      PT 483.32357056 1.63279417 0
+      PT 546.4103256 1.54881662 0
     >
     <ITEM
-      POSITION 51.64585735159926
+      POSITION 55.55328048196719
       SNAPOFFS 0
-      LENGTH 9.43126984126984
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {5D05687D-3BBD-4CC1-8004-FD1231ABE19A}
-      IID 8
-      NAME having-a-smoke-89760.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {3E594AED-676C-4471-85C6-E5EDF191FB3F}
-      <SOURCE MP3
-        FILE "Media\having-a-smoke-89760.mp3" 1
-      >
-    >
-    <ITEM
-      POSITION 102.54208731988911
-      SNAPOFFS 0
-      LENGTH 6.86595833333333
+      LENGTH 6.86595833333357
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -1877,61 +1912,17 @@
       CHANMODE 0
       GUID {C6972E12-330B-4A35-B6CE-7F59F0358631}
       <SOURCE MP3
-        FILE "Media\tape-player-sounds-90780.mp3" 1
+        FILE "Media/tape-player-sounds-90780.mp3" 1
       >
     >
     <ITEM
-      POSITION 185.97492907061374
+      POSITION 174.10004445081984
       SNAPOFFS 0
-      LENGTH 1.76796702275718
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {ADB60F04-4979-465B-919B-085AC49992A3}
-      IID 64
-      NAME glass-on-table-movement-29170.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 16.36697318008086
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {FA7613A7-DBE4-49E1-954F-B4A889B2F15E}
-      <SOURCE MP3
-        FILE "Media\glass-on-table-movement-29170.mp3" 1
-      >
-    >
-    <ITEM
-      POSITION 228.95172944708023
-      SNAPOFFS 0
-      LENGTH 5.46065759637168
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {0B75188F-EC41-4AA4-BAFB-CFF6EED2D1F6}
-      IID 65
-      NAME door-open-close-with-bell-96884.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {742084B5-FE83-43DF-8A34-AB8566A97809}
-      <SOURCE MP3
-        FILE "Media\door-open-close-with-bell-96884.mp3" 1
-      >
-    >
-    <ITEM
-      POSITION 237.18679949411666
-      SNAPOFFS 0
-      LENGTH 2.81510651586393
+      LENGTH 2.81510651586399
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.49264364027619 0 1 0 0 0
-      FADEOUT 1 0.74600322670392 0 1 0 0 0
+      FADEOUT 1 0.74600322670398 0 1 0 0 0
       MUTE 0 0
       SEL 0
       IGUID {6D8973C1-2A78-41FD-A209-3F6E72BBA2FE}
@@ -1943,16 +1934,16 @@
       CHANMODE 0
       GUID {530E41F5-D31F-461F-891F-1B08624ADD5D}
       <SOURCE MP3
-        FILE "Media\diesel-car-approaching-and-stopping-briefly-before-continuing-32037.mp3" 1
+        FILE "Media/diesel-car-approaching-and-stopping-briefly-before-continuing-32037.mp3" 1
       >
     >
     <ITEM
-      POSITION 304.68999999999255
+      POSITION 216.3207615387872
       SNAPOFFS 0
-      LENGTH 5.15725757743974
+      LENGTH 5.15725757743979
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0.80539411766529 0 1 0 0 0
+      FADEIN 1 0.80539411766534 0 1 0 0 0
       FADEOUT 1 1.38935352304946 0 1 0 0 0
       MUTE 0 0
       SEL 0
@@ -1965,13 +1956,13 @@
       CHANMODE 0
       GUID {DB2BEF73-486C-41BA-8638-16FB9CE3B0B9}
       <SOURCE MP3
-        FILE "Media\tuning-radio-7150.mp3" 1
+        FILE "Media/tuning-radio-7150.mp3" 1
       >
     >
     <ITEM
-      POSITION 318.29687678776099
+      POSITION 229.92763832655595
       SNAPOFFS 0
-      LENGTH 6.3602950293909
+      LENGTH 6.36029502939073
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.80539411766495 0 1 0 0 0
@@ -1987,17 +1978,17 @@
       CHANMODE 0
       GUID {C35D4ABD-1C1D-44D9-A09A-5EFF21E69BFA}
       <SOURCE MP3
-        FILE "Media\tuning-radio-7150.mp3" 1
+        FILE "Media/tuning-radio-7150.mp3" 1
       >
     >
     <ITEM
-      POSITION 334.0706973654577
+      POSITION 245.70145890425263
       SNAPOFFS 0
-      LENGTH 4.04354714685712
+      LENGTH 4.04354714685707
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.80539411766495 0 1 0 0 0
-      FADEOUT 1 1.38935352304946 0 1 0 0 0
+      FADEOUT 1 1.38935352304935 0 1 0 0 0
       MUTE 0 0
       SEL 0
       IGUID {22721A08-90F3-4C13-9558-01854BCF814C}
@@ -2009,13 +2000,13 @@
       CHANMODE 0
       GUID {F81A5EBF-7B31-4536-8208-BD765439E5DB}
       <SOURCE MP3
-        FILE "Media\tuning-radio-7150.mp3" 1
+        FILE "Media/tuning-radio-7150.mp3" 1
       >
     >
     <ITEM
-      POSITION 349.44973184188422
+      POSITION 261.08049338067849
       SNAPOFFS 0
-      LENGTH 0.48455330527395
+      LENGTH 0.48455330527389
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -2031,16 +2022,16 @@
       CHANMODE 0
       GUID {F0633DB4-F268-4229-8B0E-5195460BF3B0}
       <SOURCE MP3
-        FILE "Media\light-switch-off-86314.mp3" 1
+        FILE "Media/light-switch-off-86314.mp3" 1
       >
     >
     <ITEM
-      POSITION 417.42703867524227
+      POSITION 295.05499025154802
       SNAPOFFS 0
-      LENGTH 10.78963718820864
+      LENGTH 41.10018300533687
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 1.65028626205446 0 1 0 0 0
+      FADEIN 1 3.52575099310491 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
@@ -2048,22 +2039,22 @@
       IID 74
       NAME gravel-road-footsteps-336379.mp3
       VOLPAN 1 0 1 -1
-      SOFFS 0
+      SOFFS 2.73077777539746
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {A17C8F59-CDCA-436A-98CA-90D89A20D004}
       <SOURCE MP3
-        FILE "Media\gravel-road-footsteps-336379.mp3" 1
+        FILE "Media/gravel-road-footsteps-336379.mp3" 1
       >
     >
     <ITEM
-      POSITION 497.31655777695653
+      POSITION 404.47553151495691
       SNAPOFFS 0
-      LENGTH 49.0932678274084
+      LENGTH 49.09326782740936
       LOOP 1
       ALLTAKES 0
       FADEIN 1 2.31585496309981 0 1 0 0 0
-      FADEOUT 1 9.55235337624333 0 1 0 0 0
+      FADEOUT 1 9.55235337624362 0 1 0 0 0
       MUTE 0 0
       SEL 0
       IGUID {9B3908FA-92CA-4150-B132-C71CF6E38CE0}
@@ -2075,7 +2066,7 @@
       CHANMODE 0
       GUID {A4638B52-7F1F-45AD-B20F-3C566B7AAD6D}
       <SOURCE MP3
-        FILE "Media\Creaking Wood _ HQ Sound Effects.mp3" 1
+        FILE "Media/Creaking Wood _ HQ Sound Effects.mp3" 1
       >
     >
   >
@@ -2091,7 +2082,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
@@ -2113,27 +2104,32 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0 1 0
-      PT 320.94735547 1 0
-      PT 330.17709551 1 0
-      PT 330.17759551 1.54881662 0
-      PT 336.16560654 1.54881662 0
-      PT 336.16610655 1 0
-      PT 352.10118238 1 0
-      PT 363.63274173 1.0874982 0
-      PT 368.54397247 1.29252923 0
-      PT 368.54397247 1.53051027 0
-      PT 368.89360551 1.54881662 0
-      PT 388.71167654 1.54881662 0
-      PT 388.71217654 1.34896288 0
+      PT 232.57811701 1 0
+      PT 241.80785705 1 0
+      PT 241.80835705 1.54881662 0
+      PT 247.79636808 1.54881662 0
+      PT 247.79686809 1 0
+      PT 261.11926709 1 0
+      PT 261.11976709 1.01368589 0
+      PT 270.79171547 1.0874982 0
+      PT 275.70294621 1.29252923 0
+      PT 275.70294621 1.53051027 0
+      PT 276.05257925 1.54881662 0
+      PT 295.87065028 1.54881662 0
+      PT 295.87115028 1.34896288 0
+      PT 342.56094964 1.34896288 0
+      PT 342.56144964 1.12351117 0
+      PT 372.31572086 1.16395485 0
+      PT 435.4024759 1.34896288 0
     >
     <ITEM
-      POSITION 308.67602323144615
+      POSITION 220.30678477024108
       SNAPOFFS 0
-      LENGTH 10.65265524206455
+      LENGTH 10.65265524206478
       LOOP 1
       ALLTAKES 0
       FADEIN 1 1.67319192283725 0 1 0 0 0
-      FADEOUT 1 2.23092256378317 0 1 0 0 0
+      FADEOUT 1 2.23092256378339 0 1 0 0 0
       MUTE 0 0
       SEL 0
       IGUID {E84164C7-CAC5-4C4E-9C7B-A3EE75627C14}
@@ -2145,11 +2141,11 @@
       CHANMODE 0
       GUID {74AB4661-F4B6-40BD-9E82-C23F245F81F0}
       <SOURCE MP3
-        FILE "Media\art_bell_coast_to_coast_the devil_isnst_hiding_59.00.mp3" 1
+        FILE "Media/art_bell_coast_to_coast_the devil_isnst_hiding_59.00.mp3" 1
       >
     >
     <ITEM
-      POSITION 323.64846310351822
+      POSITION 235.27922464231318
       SNAPOFFS 0
       LENGTH 12.51714344192169
       LOOP 1
@@ -2167,17 +2163,17 @@
       CHANMODE 0
       GUID {9B6A3326-5659-4E60-8578-F0A00D0652E8}
       <SOURCE MP3
-        FILE "Media\strange-number-station-24112.mp3" 1
+        FILE "Media/strange-number-station-24112.mp3" 1
       >
     >
     <ITEM
-      POSITION 337.95794619396059
+      POSITION 249.58870773275552
       SNAPOFFS 0
-      LENGTH 11.5305593550147
+      LENGTH 11.53055935501371
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 3.61216678016353 0 1 0 0 0
-      FADEOUT 1 2.04421187006301 0 1 0 0 0
+      FADEIN 1 3.61216678016348 0 1 0 0 0
+      FADEOUT 1 2.04421187006307 0 1 0 0 0
       MUTE 0 0
       SEL 0
       IGUID {12CADF06-A433-4B2D-815C-6E2890F28D6C}
@@ -2189,17 +2185,17 @@
       CHANMODE 0
       GUID {66D26AA3-70E8-4625-A4FB-B044152664D6}
       <SOURCE MP3
-        FILE "Media\spy-radio-station-34545.mp3" 1
+        FILE "Media/spy-radio-station-34545.mp3" 1
       >
     >
     <ITEM
-      POSITION 392.46329314374145
+      POSITION 299.62226688174184
       SNAPOFFS 0
-      LENGTH 42.93868275642757
+      LENGTH 42.93868275642762
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 2.31585496309992 0 1 0 0 0
-      FADEOUT 1 6.07213695545431 0 1 0 0 0
+      FADEIN 1 2.31585496310072 0 1 0 0 0
+      FADEOUT 1 6.07213695545397 0 1 0 0 0
       MUTE 0 0
       SEL 0
       IGUID {39DFDDA1-19AE-4556-83FA-8BE76E1A43BE}
@@ -2211,7 +2207,7 @@
       CHANMODE 0
       GUID {0B25A470-DCAC-48F3-942E-2A9C4EF535E1}
       <SOURCE MP3
-        FILE "Media\Creaking Wood _ HQ Sound Effects.mp3" 1
+        FILE "Media/Creaking Wood _ HQ Sound Effects.mp3" 1
       >
     >
     <ITEM
@@ -2233,7 +2229,7 @@
       CHANMODE 0
       GUID {57DF41D0-3931-44B9-B8BF-18B32B41652E}
       <SOURCE MP3
-        FILE "Media\Creaking Wood _ HQ Sound Effects.mp3" 1
+        FILE "Media/Creaking Wood _ HQ Sound Effects.mp3" 1
       >
     >
   >
